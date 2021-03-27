@@ -190,36 +190,95 @@ a {
           background-image: url(../images/new_build.png);
           background-position: bottom 0px right 0px; }
 
-.services .container {
-  display: flex;
-  position: relative; }
-
-.services_title {
-  display: flex; }
-  .services_title hr {
+.services {
+  display: block;
+  height: 446px;
+  padding-bottom: 115px; }
+  .services .container {
+    display: flex;
+    position: relative; }
+  .services_title {
+    display: flex; }
+    .services_title hr {
+      position: absolute;
+      height: 2px;
+      width: 50px;
+      background-color: #00A4E5;
+      left: 5px;
+      top: 34px; }
+  .services_all-serv {
+    display: flex;
     position: absolute;
-    height: 2px;
-    width: 50px;
-    background-color: #00A4E5;
-    left: 5px;
-    top: 34px; }
+    left: 353px; }
+    .services_all-serv__text {
+      font-family: Open Sans;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0.20000000298023224px;
+      margin-right: 31.6px; }
+    .services_all-serv__btn {
+      height: 40px;
+      width: 150px;
+      background: #00A4E5;
+      font-family: Open Sans;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: #FFFFFF; }
+  .services_servs {
+    display: flex;
+    position: absolute;
+    top: 116px;
+    margin-bottom: 115px; }
+  .services_serv {
+    margin-right: 28px;
+    padding: 38px 23px; }
+    .services_serv__img {
+      margin-bottom: 25px; }
+    .services_serv__text {
+      font-family: Open Sans;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0.18750004470348358px;
+      text-align: left; }
+      .services_serv__text span {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.4266666769981384px;
+        text-align: left;
+        display: block;
+        margin-bottom: 13px; }
+    .services_serv:last-child {
+      margin-right: 0; }
 
-.services_all-serv {
-  display: flex;
-  position: absolute;
-  left: 353px; }
-  .services_all-serv__text {
+.get-in-touch {
+  background-image: url(../images/work_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 306px;
+  text-align: center; }
+  .get-in-touch__title {
     font-family: Open Sans;
-    font-size: 11px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0.20000000298023224px;
-    margin-right: 31.6px; }
-  .services_all-serv__btn {
-    height: 40px;
-    width: 150px;
-    background: #00A4E5;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: #48555B; }
+  .get-in-touch__btn {
+    margin-top: 35px;
     font-family: Open Sans;
     font-size: 13px;
     font-style: normal;
@@ -227,36 +286,10 @@ a {
     line-height: 18px;
     letter-spacing: 0.5px;
     text-align: center;
-    color: #FFFFFF; }
-
-.services_servs {
-  display: flex;
-  position: absolute;
-  top: 116px;
-  margin-bottom: 115px; }
-
-.services_serv {
-  margin-right: 28px;
-  padding: 38px 23px; }
-  .services_serv__img {
-    margin-bottom: 25px; }
-  .services_serv__text {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0.18750004470348358px;
-    text-align: left; }
-    .services_serv__text span {
-      font-family: Open Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 24px;
-      letter-spacing: 0.4266666769981384px;
-      text-align: left;
-      display: block;
-      margin-bottom: 13px; }
-  .services_serv:last-child {
-    margin-right: 0; }
+    height: 40px;
+    width: 150px;
+    left: 645px;
+    top: 227px;
+    border-radius: 0px;
+    color: #FFF;
+    background-color: #00A4E5; }

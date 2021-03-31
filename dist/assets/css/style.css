@@ -53,18 +53,18 @@ input:focus, textarea:focus, button:focus {
     outline: none;
 }
 
-@font-face {
-    font-family: BebasNeueBold;
-  src: url(BebasNeueBold.ttf);
-}
-
-@font-face {
-    font-family: OpenSans;
-  src: url(OpenSans-Regular.ttf);
-}
-
 a {
     text-decoration: none;
+}
+
+@font-face {
+    font-family: BebasNeueBold;
+  src: url("../fonts/ofont.ru_Bebas Neue.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 .container {
@@ -262,6 +262,139 @@ a {
 .our-story_inner__pictures > div:nth-child(3) {
     background-image: url(../images/new_build.png);
     background-position: bottom 0px right 0px;
+}
+
+.footer {
+    background-color: #141A20;
+    color: #fff;
+    padding: 42px 0;
+}
+
+.footer .container {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer__company {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: left;
+    margin-right: 71px;
+}
+
+.footer__company_title {
+    margin-bottom: 19px;
+}
+
+.footer__company_logo {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer__links {
+    margin-right: 58px;
+}
+
+.footer__links_title {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.8461539149284363px;
+}
+
+.footer__links_li {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer__links_li ul {
+    margin-right: 34px;
+}
+
+.footer__links_li ul:last-child {
+    margin-right: 0;
+}
+
+.footer__links_li a {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.8461539149284363px;
+    color: #fff;
+}
+
+.footer__contact {
+    margin-right: 46px;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: left;
+}
+
+.footer__contact > div {
+    margin-bottom: 15px;
+}
+
+.footer__contact_titel {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: left;
+}
+
+.footer__contact:last-child {
+    margin-bottom: 0;
+}
+
+.footer__socials {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer__socials a {
+    display: block;
+    margin-right: 25px;
+}
+
+.footer__socials a:last-child {
+    margin-right: 0;
+}
+
+.footer__socials a img {
+    height: 12.04411792755127px;
+    width: 12.04411792755127px;
+    left: 0.4779052734375px;
+    top: 0.47802734375px;
+    border-radius: 0px;
+}
+
+footer {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: center;
+    background-color: #171819;
+    padding: 22px 0;
+    color: #fff;
 }
 
 .services {
